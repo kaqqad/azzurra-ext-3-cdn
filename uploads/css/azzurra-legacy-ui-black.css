@@ -1,0 +1,871 @@
+/* line 34, ../sass/azzurra-legacy/visual/_panel.scss */
+.x-panel.black-panel {
+  /*.x-layout-collapsed-east, .x-layout-collapsed-north {
+      background-color:$panel-ui-header-background-color;
+  }*/
+}
+/* line 38, ../sass/azzurra-legacy/visual/_panel.scss */
+.x-panel.black-panel > .x-panel-header {
+  color: white;
+  border-color: #3a3a3a;
+  background-color: #535353;
+}
+/* line 83, ../sass/azzurra-legacy/visual/_panel.scss */
+.x-panel.black-panel > .x-panel-header .x-tool {
+  background-color: transparent;
+}
+/* line 85, ../sass/azzurra-legacy/visual/_panel.scss */
+.x-panel.black-panel > .x-panel-header .x-tool:hover {
+  background-color: #3f3f3f;
+}
+/* line 90, ../sass/azzurra-legacy/visual/_panel.scss */
+.x-panel.black-panel > .x-panel-tl .x-panel-header .x-tool {
+  background-color: transparent;
+}
+/* line 92, ../sass/azzurra-legacy/visual/_panel.scss */
+.x-panel.black-panel > .x-panel-tl .x-panel-header .x-tool:hover {
+  background-color: #3f3f3f;
+}
+/* line 116, ../sass/azzurra-legacy/visual/_panel.scss */
+.x-panel.black-panel .x-panel-tl {
+  border: 1px solid #3a3a3a;
+  background-color: #535353;
+}
+/* line 148, ../sass/azzurra-legacy/visual/_panel.scss */
+.x-panel.black-panel .x-panel-bl {
+  border-top: none;
+}
+
+/* line 171, ../sass/azzurra-legacy/visual/_panel.scss */
+.x-panel-ghost {
+  border-color: #aeaeae;
+}
+
+/*&.x-tool-toggle {
+  background-color:transparent;
+  &:hover {
+    background-color:$tool-ui-close-background-color-over;
+  }
+}*/
+/* line 34, ../sass/azzurra-legacy/visual/_panel.scss */
+.active-window .x-panel.black-panel-active {
+  /*.x-layout-collapsed-east, .x-layout-collapsed-north {
+      background-color:$panel-ui-header-background-color;
+  }*/
+}
+/* line 38, ../sass/azzurra-legacy/visual/_panel.scss */
+.active-window .x-panel.black-panel-active > .x-panel-header {
+  border-color: #3a3a3a;
+  background-color: #535353;
+}
+/* line 83, ../sass/azzurra-legacy/visual/_panel.scss */
+.active-window .x-panel.black-panel-active > .x-panel-header .x-tool {
+  background-color: transparent;
+}
+/* line 85, ../sass/azzurra-legacy/visual/_panel.scss */
+.active-window .x-panel.black-panel-active > .x-panel-header .x-tool:hover {
+  background-color: #3f3f3f;
+}
+/* line 90, ../sass/azzurra-legacy/visual/_panel.scss */
+.active-window .x-panel.black-panel-active > .x-panel-tl .x-panel-header .x-tool {
+  background-color: transparent;
+}
+/* line 92, ../sass/azzurra-legacy/visual/_panel.scss */
+.active-window .x-panel.black-panel-active > .x-panel-tl .x-panel-header .x-tool:hover {
+  background-color: #3f3f3f;
+}
+/* line 116, ../sass/azzurra-legacy/visual/_panel.scss */
+.active-window .x-panel.black-panel-active .x-panel-tl {
+  border: 1px solid #3a3a3a;
+  background-color: #535353;
+}
+/* line 148, ../sass/azzurra-legacy/visual/_panel.scss */
+.active-window .x-panel.black-panel-active .x-panel-bl {
+  border-top: none;
+}
+
+/* line 171, ../sass/azzurra-legacy/visual/_panel.scss */
+.x-panel-ghost {
+  border-color: #aeaeae;
+}
+
+/*&.x-tool-toggle {
+  background-color:transparent;
+  &:hover {
+    background-color:$tool-ui-close-background-color-over;
+  }
+}*/
+/* line 6, ../sass/azzurra-legacy/structure/_panel.scss */
+.x-panel.black-panel .x-panel-header {
+  line-height: 18px;
+}
+
+/* line 57, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-panel.black-panel .x-grid3 .x-grid3-header,
+.x-window .x-panel-body .x-panel.black-panel .x-grid3 .x-grid3-header,
+.x-window .x-panel-body .x-panel-body .x-panel.black-panel .x-grid3 .x-grid3-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+/* line 124, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-panel.black-panel .x-grid3 .x-grid3-row td,
+.x-window .x-panel-body .x-panel.black-panel .x-grid3 .x-grid3-row td,
+.x-window .x-panel-body .x-panel-body .x-panel.black-panel .x-grid3 .x-grid3-row td {
+  border-right: 1px solid red;
+}
+/* line 144, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-panel.black-panel .x-grid3 .x-grid3-row-selected,
+.x-window .x-panel-body .x-panel.black-panel .x-grid3 .x-grid3-row-selected,
+.x-window .x-panel-body .x-panel-body .x-panel.black-panel .x-grid3 .x-grid3-row-selected {
+  background-color: #b9b9b9 !important;
+  border-color: #989898;
+}
+/* line 148, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-panel.black-panel .x-grid3 .x-grid3-row-selected + .x-grid3-row,
+.x-window .x-panel-body .x-panel.black-panel .x-grid3 .x-grid3-row-selected + .x-grid3-row,
+.x-window .x-panel-body .x-panel-body .x-panel.black-panel .x-grid3 .x-grid3-row-selected + .x-grid3-row {
+  border-top-color: #989898;
+}
+/* line 161, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-panel.black-panel .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected,
+.x-window .x-panel-body .x-panel.black-panel .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected,
+.x-window .x-panel-body .x-panel-body .x-panel.black-panel .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected {
+  border-top-color: #989898;
+}
+
+/* line 57, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-panel.black-panel .x-grid3 .x-grid3-header,
+.x-panel .x-panel-body .x-panel.black-panel .x-grid3 .x-grid3-header,
+.x-panel .x-panel-body .x-panel-body .x-panel-body.x-panel.black-panel .x-grid3 .x-grid3-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+/* line 124, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-panel.black-panel .x-grid3 .x-grid3-row td,
+.x-panel .x-panel-body .x-panel.black-panel .x-grid3 .x-grid3-row td,
+.x-panel .x-panel-body .x-panel-body .x-panel-body.x-panel.black-panel .x-grid3 .x-grid3-row td {
+  border-right: 1px solid red;
+}
+/* line 144, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-panel.black-panel .x-grid3 .x-grid3-row-selected,
+.x-panel .x-panel-body .x-panel.black-panel .x-grid3 .x-grid3-row-selected,
+.x-panel .x-panel-body .x-panel-body .x-panel-body.x-panel.black-panel .x-grid3 .x-grid3-row-selected {
+  background-color: #b9b9b9 !important;
+  border-color: #989898;
+}
+/* line 148, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-panel.black-panel .x-grid3 .x-grid3-row-selected + .x-grid3-row,
+.x-panel .x-panel-body .x-panel.black-panel .x-grid3 .x-grid3-row-selected + .x-grid3-row,
+.x-panel .x-panel-body .x-panel-body .x-panel-body.x-panel.black-panel .x-grid3 .x-grid3-row-selected + .x-grid3-row {
+  border-top-color: #989898;
+}
+/* line 161, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-panel.black-panel .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected,
+.x-panel .x-panel-body .x-panel.black-panel .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected,
+.x-panel .x-panel-body .x-panel-body .x-panel-body.x-panel.black-panel .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected {
+  border-top-color: #989898;
+}
+
+/* line 57, ../sass/azzurra-legacy/visual/_grid.scss */
+.active-window .x-panel.black-panel-active .x-grid3 .x-grid3-header,
+.active-window.x-window .x-panel-body .x-panel.black-panel-active .x-grid3 .x-grid3-header,
+.active-window.x-window .x-panel-body .x-panel-body .x-panel.black-panel-active .x-grid3 .x-grid3-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+/* line 124, ../sass/azzurra-legacy/visual/_grid.scss */
+.active-window .x-panel.black-panel-active .x-grid3 .x-grid3-row td,
+.active-window.x-window .x-panel-body .x-panel.black-panel-active .x-grid3 .x-grid3-row td,
+.active-window.x-window .x-panel-body .x-panel-body .x-panel.black-panel-active .x-grid3 .x-grid3-row td {
+  border-right: 1px solid red;
+}
+/* line 144, ../sass/azzurra-legacy/visual/_grid.scss */
+.active-window .x-panel.black-panel-active .x-grid3 .x-grid3-row-selected,
+.active-window.x-window .x-panel-body .x-panel.black-panel-active .x-grid3 .x-grid3-row-selected,
+.active-window.x-window .x-panel-body .x-panel-body .x-panel.black-panel-active .x-grid3 .x-grid3-row-selected {
+  background-color: #b9b9b9 !important;
+  border-color: #989898;
+}
+/* line 148, ../sass/azzurra-legacy/visual/_grid.scss */
+.active-window .x-panel.black-panel-active .x-grid3 .x-grid3-row-selected + .x-grid3-row,
+.active-window.x-window .x-panel-body .x-panel.black-panel-active .x-grid3 .x-grid3-row-selected + .x-grid3-row,
+.active-window.x-window .x-panel-body .x-panel-body .x-panel.black-panel-active .x-grid3 .x-grid3-row-selected + .x-grid3-row {
+  border-top-color: #989898;
+}
+/* line 161, ../sass/azzurra-legacy/visual/_grid.scss */
+.active-window .x-panel.black-panel-active .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected,
+.active-window.x-window .x-panel-body .x-panel.black-panel-active .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected,
+.active-window.x-window .x-panel-body .x-panel-body .x-panel.black-panel-active .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected {
+  border-top-color: #989898;
+}
+
+/*@include grid-ui-visual(
+$grid-ui-class: 'x-panel.black-panel > .x-panel-bwrap > .x-panel-body > .x-grid3',
+$grid-ui-row-border-color-selected: $custom-grid-row-border-color-selected,
+$grid-ui-row-background-color-selected: $custom-grid-row-background-color-selected
+);*/
+/* line 22, ../sass/azzurra-legacy/visual/_window.scss */
+.x-window.black-window-active.active-window {
+  border: 1px solid #3f3f3f;
+  background-color: #535353;
+}
+/* line 48, ../sass/azzurra-legacy/visual/_window.scss */
+.x-window.black-window-active.active-window > .x-window-header .x-tool {
+  background-color: transparent;
+}
+/* line 50, ../sass/azzurra-legacy/visual/_window.scss */
+.x-window.black-window-active.active-window > .x-window-header .x-tool:hover {
+  background-color: #3f3f3f;
+}
+/* line 57, ../sass/azzurra-legacy/visual/_window.scss */
+.x-window.black-window-active.active-window > .x-window-tl .x-window-header .x-tool {
+  background-color: transparent;
+}
+/* line 59, ../sass/azzurra-legacy/visual/_window.scss */
+.x-window.black-window-active.active-window > .x-window-tl .x-window-header .x-tool:hover {
+  background-color: #3f3f3f;
+}
+/* line 66, ../sass/azzurra-legacy/visual/_window.scss */
+.x-window.black-window-active.active-window > .x-window-tl .x-window-tr .x-window-tc .x-window-header .x-tool-close {
+  background-color: #252525;
+}
+/* line 76, ../sass/azzurra-legacy/visual/_window.scss */
+.x-window.black-window-active.active-window .x-window-mc {
+  border-color: #3f3f3f;
+}
+
+/* line 22, ../sass/azzurra-legacy/visual/_window.scss */
+.x-window.black-window {
+  border: 1px solid #3f3f3f;
+  background-color: #535353;
+}
+/* line 48, ../sass/azzurra-legacy/visual/_window.scss */
+.x-window.black-window > .x-window-header .x-tool {
+  background-color: transparent;
+}
+/* line 50, ../sass/azzurra-legacy/visual/_window.scss */
+.x-window.black-window > .x-window-header .x-tool:hover {
+  background-color: #3f3f3f;
+}
+/* line 57, ../sass/azzurra-legacy/visual/_window.scss */
+.x-window.black-window > .x-window-tl .x-window-header .x-tool {
+  background-color: transparent;
+}
+/* line 59, ../sass/azzurra-legacy/visual/_window.scss */
+.x-window.black-window > .x-window-tl .x-window-header .x-tool:hover {
+  background-color: #3f3f3f;
+}
+/* line 66, ../sass/azzurra-legacy/visual/_window.scss */
+.x-window.black-window > .x-window-tl .x-window-tr .x-window-tc .x-window-header .x-tool-close {
+  background-color: #252525;
+}
+/* line 76, ../sass/azzurra-legacy/visual/_window.scss */
+.x-window.black-window .x-window-mc {
+  border-color: #3f3f3f;
+}
+
+/* line 81, ../sass/azzurra-legacy/visual/_tabs.scss */
+.x-window.black-window-active.active-window .x-tab-panel .x-tab-strip .x-tab-strip-over {
+  background-color: #535353;
+}
+/* line 83, ../sass/azzurra-legacy/visual/_tabs.scss */
+.x-window.black-window-active.active-window .x-tab-panel .x-tab-strip .x-tab-strip-over .x-tab-strip-text {
+  color: white;
+}
+/* line 91, ../sass/azzurra-legacy/visual/_tabs.scss */
+.x-window.black-window-active.active-window .x-tab-panel .x-tab-strip .x-tab-strip-active {
+  background-color: #474747;
+}
+/* line 181, ../sass/azzurra-legacy/visual/_tabs.scss */
+.x-window.black-window-active.active-window .x-tab-panel .x-tab-panel-header-plain .x-tab-strip-wrap {
+  background-color: transparent !important;
+  background-image: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+/* line 255, ../sass/azzurra-legacy/visual/_tabs.scss */
+.x-window.black-window-active.active-window .x-tab-panel .x-tab-panel-footer-plain .x-tab-strip-wrap {
+  background-color: transparent !important;
+  background-image: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+/* line 267, ../sass/azzurra-legacy/visual/_tabs.scss */
+.x-window.black-window-active.active-window .x-tab-panel .x-tab-strip-spacer {
+  border-color: #474747;
+  background-color: #474747;
+}
+
+/* line 38, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window-active.active-window .x-btn {
+  background-color: #3a3a3a;
+  border-color: #353535;
+}
+/* line 67, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window-active.active-window .x-btn .x-btn-text {
+  color: white;
+}
+/* line 79, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window-active.active-window .x-btn.x-btn-over {
+  background-color: #424242;
+  border-color: #3c3c3c;
+}
+/* line 100, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window-active.active-window .x-btn.x-btn-over .x-btn-text {
+  color: white;
+}
+/* line 112, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window-active.active-window .x-btn.x-btn-click {
+  background-color: #353535;
+  border-color: #303030;
+}
+/* line 133, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window-active.active-window .x-btn.x-btn-click .x-btn-text {
+  color: white;
+}
+/* line 143, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window-active.active-window .x-btn.x-btn-pressed, .x-window.black-window-active.active-window .x-btn.x-btn-menu-active {
+  background-color: #353535;
+  border-color: #303030;
+}
+/* line 164, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window-active.active-window .x-btn.x-btn-pressed .x-btn-text, .x-window.black-window-active.active-window .x-btn.x-btn-menu-active .x-btn-text {
+  color: white;
+}
+
+/* line 38, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window .x-btn {
+  background-color: #3a3a3a;
+  border-color: #353535;
+}
+/* line 67, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window .x-btn .x-btn-text {
+  color: white;
+}
+/* line 79, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window .x-btn.x-btn-over {
+  background-color: #424242;
+  border-color: #3c3c3c;
+}
+/* line 100, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window .x-btn.x-btn-over .x-btn-text {
+  color: white;
+}
+/* line 112, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window .x-btn.x-btn-click {
+  background-color: #353535;
+  border-color: #303030;
+}
+/* line 133, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window .x-btn.x-btn-click .x-btn-text {
+  color: white;
+}
+/* line 143, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window .x-btn.x-btn-pressed, .x-window.black-window .x-btn.x-btn-menu-active {
+  background-color: #353535;
+  border-color: #303030;
+}
+/* line 164, ../sass/azzurra-legacy/visual/_button.scss */
+.x-window.black-window .x-btn.x-btn-pressed .x-btn-text, .x-window.black-window .x-btn.x-btn-menu-active .x-btn-text {
+  color: white;
+}
+
+/* line 79, ../sass/azzurra-legacy/visual/_button.scss */
+.active-window .x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button-active.x-btn-over {
+  background-color: #4e4e4e;
+  border-color: #494949;
+}
+/* line 112, ../sass/azzurra-legacy/visual/_button.scss */
+.active-window .x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button-active.x-btn-click {
+  background-color: #424242;
+  border-color: #3c3c3c;
+}
+/* line 143, ../sass/azzurra-legacy/visual/_button.scss */
+.active-window .x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button-active.x-btn-pressed, .active-window .x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button-active.x-btn-menu-active {
+  background-color: #424242;
+  border-color: #3c3c3c;
+}
+
+/* line 57, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-window.black-window-active.active-window .x-grid3 .x-grid3-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+/* line 124, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-window.black-window-active.active-window .x-grid3 .x-grid3-row td {
+  border-right: 1px solid red;
+}
+/* line 144, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-window.black-window-active.active-window .x-grid3 .x-grid3-row-selected {
+  background-color: #b9b9b9 !important;
+  border-color: #989898;
+}
+/* line 148, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-window.black-window-active.active-window .x-grid3 .x-grid3-row-selected + .x-grid3-row {
+  border-top-color: #989898;
+}
+/* line 161, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-window.black-window-active.active-window .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected {
+  border-top-color: #989898;
+}
+
+/* line 57, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-window.black-window .x-grid3 .x-grid3-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+/* line 124, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-window.black-window .x-grid3 .x-grid3-row td {
+  border-right: 1px solid red;
+}
+/* line 144, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-window.black-window .x-grid3 .x-grid3-row-selected {
+  background-color: #b9b9b9 !important;
+  border-color: #989898;
+}
+/* line 148, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-window.black-window .x-grid3 .x-grid3-row-selected + .x-grid3-row {
+  border-top-color: #989898;
+}
+/* line 161, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-window.black-window .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected {
+  border-top-color: #989898;
+}
+
+/* line 38, ../sass/azzurra-legacy/visual/_button.scss */
+.x-btn.black-button.x-btn.black-button.x-btn {
+  background-color: #3a3a3a;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #353535;
+  background-image: none;
+}
+/* line 67, ../sass/azzurra-legacy/visual/_button.scss */
+.x-btn.black-button.x-btn.black-button.x-btn .x-btn-text {
+  color: white;
+  font-size: 12px;
+  font-family: "Segoe UI", tahoma, arial, verdana, sans-serif;
+  font-weight: normal;
+  text-shadow: none;
+}
+/* line 79, ../sass/azzurra-legacy/visual/_button.scss */
+.x-btn.black-button.x-btn.black-button.x-btn.x-btn-over {
+  background-color: #424242;
+  border-color: #3c3c3c;
+  background-image: none;
+}
+/* line 100, ../sass/azzurra-legacy/visual/_button.scss */
+.x-btn.black-button.x-btn.black-button.x-btn.x-btn-over .x-btn-text {
+  color: white;
+}
+/* line 112, ../sass/azzurra-legacy/visual/_button.scss */
+.x-btn.black-button.x-btn.black-button.x-btn.x-btn-click {
+  background-color: #353535;
+  border-color: #303030;
+}
+/* line 133, ../sass/azzurra-legacy/visual/_button.scss */
+.x-btn.black-button.x-btn.black-button.x-btn.x-btn-click .x-btn-text {
+  color: white;
+}
+/* line 143, ../sass/azzurra-legacy/visual/_button.scss */
+.x-btn.black-button.x-btn.black-button.x-btn.x-btn-pressed, .x-btn.black-button.x-btn.black-button.x-btn.x-btn-menu-active {
+  background-color: #353535;
+  border-color: #303030;
+}
+/* line 164, ../sass/azzurra-legacy/visual/_button.scss */
+.x-btn.black-button.x-btn.black-button.x-btn.x-btn-pressed .x-btn-text, .x-btn.black-button.x-btn.black-button.x-btn.x-btn-menu-active .x-btn-text {
+  color: white;
+}
+
+/* line 38, ../sass/azzurra-legacy/visual/_button.scss */
+.active-window.active-window .x-btn.black-button-active {
+  background-color: #3a3a3a;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #353535;
+  background-image: none;
+}
+/* line 67, ../sass/azzurra-legacy/visual/_button.scss */
+.active-window.active-window .x-btn.black-button-active .x-btn-text {
+  color: white;
+  font-size: 12px;
+  font-family: "Segoe UI", tahoma, arial, verdana, sans-serif;
+  font-weight: normal;
+  text-shadow: none;
+}
+/* line 79, ../sass/azzurra-legacy/visual/_button.scss */
+.active-window.active-window .x-btn.black-button-active.x-btn-over {
+  background-color: #424242;
+  border-color: #3c3c3c;
+  background-image: none;
+}
+/* line 100, ../sass/azzurra-legacy/visual/_button.scss */
+.active-window.active-window .x-btn.black-button-active.x-btn-over .x-btn-text {
+  color: white;
+}
+/* line 112, ../sass/azzurra-legacy/visual/_button.scss */
+.active-window.active-window .x-btn.black-button-active.x-btn-click {
+  background-color: #353535;
+  border-color: #303030;
+}
+/* line 133, ../sass/azzurra-legacy/visual/_button.scss */
+.active-window.active-window .x-btn.black-button-active.x-btn-click .x-btn-text {
+  color: white;
+}
+/* line 143, ../sass/azzurra-legacy/visual/_button.scss */
+.active-window.active-window .x-btn.black-button-active.x-btn-pressed, .active-window.active-window .x-btn.black-button-active.x-btn-menu-active {
+  background-color: #353535;
+  border-color: #303030;
+}
+/* line 164, ../sass/azzurra-legacy/visual/_button.scss */
+.active-window.active-window .x-btn.black-button-active.x-btn-pressed .x-btn-text, .active-window.active-window .x-btn.black-button-active.x-btn-menu-active .x-btn-text {
+  color: white;
+}
+
+/* line 38, ../sass/azzurra-legacy/visual/_button.scss */
+.x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button {
+  background-color: transparent;
+  border-color: transparent;
+  background-image: none;
+}
+/* line 67, ../sass/azzurra-legacy/visual/_button.scss */
+.x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button .x-btn-text {
+  color: #31373d;
+  font-size: 11px;
+  font-family: "Segoe UI", tahoma, arial, verdana, sans-serif;
+}
+/* line 79, ../sass/azzurra-legacy/visual/_button.scss */
+.x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button.x-btn-over {
+  background-color: #4e4e4e;
+  border-color: #494949;
+  background-image: none;
+}
+/* line 100, ../sass/azzurra-legacy/visual/_button.scss */
+.x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button.x-btn-over .x-btn-text {
+  color: white;
+  text-shadow: none;
+}
+/* line 112, ../sass/azzurra-legacy/visual/_button.scss */
+.x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button.x-btn-click {
+  background-color: #424242;
+  border-color: #3c3c3c;
+}
+/* line 133, ../sass/azzurra-legacy/visual/_button.scss */
+.x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button.x-btn-click .x-btn-text {
+  color: white;
+  text-shadow: none;
+}
+/* line 143, ../sass/azzurra-legacy/visual/_button.scss */
+.x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button.x-btn-pressed, .x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button.x-btn-menu-active {
+  background-color: #424242;
+  border-color: #3c3c3c;
+}
+/* line 164, ../sass/azzurra-legacy/visual/_button.scss */
+.x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button.x-btn-pressed .x-btn-text, .x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button.x-btn-menu-active .x-btn-text {
+  color: white;
+  text-shadow: none;
+}
+/* line 197, ../sass/azzurra-legacy/visual/_button.scss */
+.x-toolbar.x-toolbar.x-toolbar.x-toolbar .x-btn.black-button.x-item-disabled .x-btn-text {
+  text-shadow: none;
+}
+
+/* line 224, ../sass/azzurra-legacy/visual/_button.scss */
+.x-btn-group {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #aeb6be;
+  -moz-box-shadow: rgba(255, 255, 255, 0.8) 0 1px inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.8) 0 1px inset;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 244, ../sass/azzurra-legacy/visual/_button.scss */
+.x-btn-group .x-btn-group-header {
+  background-color: #a6a6a6;
+}
+/* line 246, ../sass/azzurra-legacy/visual/_button.scss */
+.x-btn-group .x-btn-group-header .x-btn-group-header-text {
+  font-weight: bold;
+  font-size: 10px;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px;
+}
+
+/* line 16, ../sass/azzurra-legacy/structure/_tabs.scss */
+.x-tab-panel.black-tab .x-tab-panel-header {
+  border-style: solid;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+}
+/* line 35, ../sass/azzurra-legacy/structure/_tabs.scss */
+.x-tab-panel.black-tab .x-tab-strip-top .x-tab-strip-active {
+  padding-bottom: 1px;
+  margin-bottom: -1px;
+  position: relative;
+}
+/* line 43, ../sass/azzurra-legacy/structure/_tabs.scss */
+.x-tab-panel.black-tab .x-tab-panel-footer {
+  border-style: solid;
+  border-top-width: 0px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+}
+/* line 61, ../sass/azzurra-legacy/structure/_tabs.scss */
+.x-tab-panel.black-tab .x-tab-strip-bottom .x-tab-strip-active {
+  padding-top: 1px;
+  margin-top: -1px;
+  position: relative;
+}
+/* line 68, ../sass/azzurra-legacy/structure/_tabs.scss */
+.x-tab-panel.black-tab .x-tab-strip-spacer {
+  font-size: 1px;
+  line-height: 1px;
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+/* line 80, ../sass/azzurra-legacy/structure/_tabs.scss */
+.x-tab-panel.black-tab .x-tab-panel-header-plain {
+  border-width: 0;
+}
+/* line 83, ../sass/azzurra-legacy/structure/_tabs.scss */
+.x-tab-panel.black-tab .x-tab-panel-header-plain .x-tab-strip-top li {
+  border-top-width: 1px;
+}
+/* line 85, ../sass/azzurra-legacy/structure/_tabs.scss */
+.x-tab-panel.black-tab .x-tab-panel-header-plain .x-tab-strip-top li:first-child {
+  border-left-width: 1px;
+}
+/* line 91, ../sass/azzurra-legacy/structure/_tabs.scss */
+.x-tab-panel.black-tab .x-tab-panel-header-plain .x-tab-strip-spacer {
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+/* line 98, ../sass/azzurra-legacy/structure/_tabs.scss */
+.x-tab-panel.black-tab .x-tab-panel-footer-plain {
+  border-width: 0;
+}
+/* line 101, ../sass/azzurra-legacy/structure/_tabs.scss */
+.x-tab-panel.black-tab .x-tab-panel-footer-plain .x-tab-strip-bottom li {
+  border-bottom-width: 1px;
+}
+/* line 103, ../sass/azzurra-legacy/structure/_tabs.scss */
+.x-tab-panel.black-tab .x-tab-panel-footer-plain .x-tab-strip-bottom li:first-child {
+  border-left-width: 1px;
+}
+/* line 109, ../sass/azzurra-legacy/structure/_tabs.scss */
+.x-tab-panel.black-tab .x-tab-panel-footer-plain .x-tab-strip-spacer {
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+
+/* line 81, ../sass/azzurra-legacy/visual/_tabs.scss */
+.x-tab-panel.black-tab.x-tab-panel.black-tab.x-tab-panel .x-tab-strip .x-tab-strip-over {
+  background-color: #535353;
+}
+/* line 83, ../sass/azzurra-legacy/visual/_tabs.scss */
+.x-tab-panel.black-tab.x-tab-panel.black-tab.x-tab-panel .x-tab-strip .x-tab-strip-over .x-tab-strip-text {
+  color: white;
+}
+/* line 91, ../sass/azzurra-legacy/visual/_tabs.scss */
+.x-tab-panel.black-tab.x-tab-panel.black-tab.x-tab-panel .x-tab-strip .x-tab-strip-active {
+  background-color: #474747;
+}
+/* line 181, ../sass/azzurra-legacy/visual/_tabs.scss */
+.x-tab-panel.black-tab.x-tab-panel.black-tab.x-tab-panel .x-tab-panel-header-plain .x-tab-strip-wrap {
+  background-color: transparent !important;
+  background-image: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+/* line 255, ../sass/azzurra-legacy/visual/_tabs.scss */
+.x-tab-panel.black-tab.x-tab-panel.black-tab.x-tab-panel .x-tab-panel-footer-plain .x-tab-strip-wrap {
+  background-color: transparent !important;
+  background-image: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+/* line 267, ../sass/azzurra-legacy/visual/_tabs.scss */
+.x-tab-panel.black-tab.x-tab-panel.black-tab.x-tab-panel .x-tab-strip-spacer {
+  border-color: #474747;
+  background-color: #474747;
+}
+
+/* line 81, ../sass/azzurra-legacy/visual/_tabs.scss */
+.active-window.active-window .x-tab-panel.black-tab-active .x-tab-strip .x-tab-strip-over {
+  background-color: #535353;
+}
+/* line 83, ../sass/azzurra-legacy/visual/_tabs.scss */
+.active-window.active-window .x-tab-panel.black-tab-active .x-tab-strip .x-tab-strip-over .x-tab-strip-text {
+  color: white;
+}
+/* line 91, ../sass/azzurra-legacy/visual/_tabs.scss */
+.active-window.active-window .x-tab-panel.black-tab-active .x-tab-strip .x-tab-strip-active {
+  background-color: #474747;
+}
+/* line 181, ../sass/azzurra-legacy/visual/_tabs.scss */
+.active-window.active-window .x-tab-panel.black-tab-active .x-tab-panel-header-plain .x-tab-strip-wrap {
+  background-color: transparent !important;
+  background-image: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+/* line 255, ../sass/azzurra-legacy/visual/_tabs.scss */
+.active-window.active-window .x-tab-panel.black-tab-active .x-tab-panel-footer-plain .x-tab-strip-wrap {
+  background-color: transparent !important;
+  background-image: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+/* line 267, ../sass/azzurra-legacy/visual/_tabs.scss */
+.active-window.active-window .x-tab-panel.black-tab-active .x-tab-strip-spacer {
+  border-color: #474747;
+  background-color: #474747;
+}
+
+/* line 57, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-tab-panel.black-tab .x-grid3 .x-grid3-header,
+.x-panel-body .x-tab-panel.black-tab .x-grid3 .x-grid3-header,
+.x-panel-body .x-panel-body .x-tab-panel.black-tab
+.x-panel-body .x-panel-body .x-panel-body .x-tab-panel.black-tab .x-grid3 .x-grid3-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+/* line 124, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-tab-panel.black-tab .x-grid3 .x-grid3-row td,
+.x-panel-body .x-tab-panel.black-tab .x-grid3 .x-grid3-row td,
+.x-panel-body .x-panel-body .x-tab-panel.black-tab
+.x-panel-body .x-panel-body .x-panel-body .x-tab-panel.black-tab .x-grid3 .x-grid3-row td {
+  border-right: 1px solid red;
+}
+/* line 144, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-tab-panel.black-tab .x-grid3 .x-grid3-row-selected,
+.x-panel-body .x-tab-panel.black-tab .x-grid3 .x-grid3-row-selected,
+.x-panel-body .x-panel-body .x-tab-panel.black-tab
+.x-panel-body .x-panel-body .x-panel-body .x-tab-panel.black-tab .x-grid3 .x-grid3-row-selected {
+  background-color: #b9b9b9 !important;
+  border-color: #989898;
+}
+/* line 148, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-tab-panel.black-tab .x-grid3 .x-grid3-row-selected + .x-grid3-row,
+.x-panel-body .x-tab-panel.black-tab .x-grid3 .x-grid3-row-selected + .x-grid3-row,
+.x-panel-body .x-panel-body .x-tab-panel.black-tab
+.x-panel-body .x-panel-body .x-panel-body .x-tab-panel.black-tab .x-grid3 .x-grid3-row-selected + .x-grid3-row {
+  border-top-color: #989898;
+}
+/* line 161, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-tab-panel.black-tab .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected,
+.x-panel-body .x-tab-panel.black-tab .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected,
+.x-panel-body .x-panel-body .x-tab-panel.black-tab
+.x-panel-body .x-panel-body .x-panel-body .x-tab-panel.black-tab .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected {
+  border-top-color: #989898;
+}
+
+/* line 57, ../sass/azzurra-legacy/visual/_grid.scss */
+.active-window .x-tab-panel.black-tab-active .x-grid3 .x-grid3-header,
+.active-window .x-tab-panel.x-tab-panel.black-tab-active .x-grid3 .x-grid3-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+/* line 124, ../sass/azzurra-legacy/visual/_grid.scss */
+.active-window .x-tab-panel.black-tab-active .x-grid3 .x-grid3-row td,
+.active-window .x-tab-panel.x-tab-panel.black-tab-active .x-grid3 .x-grid3-row td {
+  border-right: 1px solid red;
+}
+/* line 144, ../sass/azzurra-legacy/visual/_grid.scss */
+.active-window .x-tab-panel.black-tab-active .x-grid3 .x-grid3-row-selected,
+.active-window .x-tab-panel.x-tab-panel.black-tab-active .x-grid3 .x-grid3-row-selected {
+  background-color: #b9b9b9 !important;
+  border-color: #989898;
+}
+/* line 148, ../sass/azzurra-legacy/visual/_grid.scss */
+.active-window .x-tab-panel.black-tab-active .x-grid3 .x-grid3-row-selected + .x-grid3-row,
+.active-window .x-tab-panel.x-tab-panel.black-tab-active .x-grid3 .x-grid3-row-selected + .x-grid3-row {
+  border-top-color: #989898;
+}
+/* line 161, ../sass/azzurra-legacy/visual/_grid.scss */
+.active-window .x-tab-panel.black-tab-active .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected,
+.active-window .x-tab-panel.x-tab-panel.black-tab-active .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected {
+  border-top-color: #989898;
+}
+
+/* line 57, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-tab-panel.black-tab .x-grid3 .x-grid3-header,
+.x-tab-panel.x-tab-panel.black-tab .x-grid3 .x-grid3-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+/* line 124, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-tab-panel.black-tab .x-grid3 .x-grid3-row td,
+.x-tab-panel.x-tab-panel.black-tab .x-grid3 .x-grid3-row td {
+  border-right: 1px solid red;
+}
+/* line 144, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-tab-panel.black-tab .x-grid3 .x-grid3-row-selected,
+.x-tab-panel.x-tab-panel.black-tab .x-grid3 .x-grid3-row-selected {
+  background-color: #b9b9b9 !important;
+  border-color: #989898;
+}
+/* line 148, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-tab-panel.black-tab .x-grid3 .x-grid3-row-selected + .x-grid3-row,
+.x-tab-panel.x-tab-panel.black-tab .x-grid3 .x-grid3-row-selected + .x-grid3-row {
+  border-top-color: #989898;
+}
+/* line 161, ../sass/azzurra-legacy/visual/_grid.scss */
+.x-tab-panel.black-tab .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected,
+.x-tab-panel.x-tab-panel.black-tab .x-grid3 .x-grid-with-col-lines .x-grid3-row-selected {
+  border-top-color: #989898;
+}
+
+/*.x-window.black-window-active.x-tab-panel.black-tab-active,
+.x-panel-body .x-tab-panel.black-tab-active,
+.x-panel-body .x-panel-body .x-tab-panel.black-tab-active,
+.x-panel-body .x-panel-body .x-panel-body .x-tab-panel.black-tab-active {
+  @include grid-ui-visual(
+  $grid-ui-class: 'x-grid3',
+  $grid-ui-row-border-color-selected: $custom-grid-row-border-color-selected,
+  $grid-ui-row-background-color-selected: $custom-grid-row-background-color-selected
+  );
+}*/
+/* line 25, ../sass/azzurra-legacy/visual/_progress.scss */
+.x-progress-wrap.black-progress {
+  border-color: #3f3f3f;
+}
+/* line 40, ../sass/azzurra-legacy/visual/_progress.scss */
+.x-progress-wrap.black-progress .x-progress-bar {
+  background-color: #535353;
+  border-right-color: transparent;
+}
+/* line 68, ../sass/azzurra-legacy/visual/_progress.scss */
+.x-progress-wrap.black-progress .x-progress-text {
+  line-height: 16px;
+}
+
+/* line 25, ../sass/azzurra-legacy/visual/_progress.scss */
+.active-window .x-progress-wrap.black-progress-active {
+  border-color: #3f3f3f;
+}
+/* line 40, ../sass/azzurra-legacy/visual/_progress.scss */
+.active-window .x-progress-wrap.black-progress-active .x-progress-bar {
+  background-color: #535353;
+  border-right-color: transparent;
+}
+/* line 68, ../sass/azzurra-legacy/visual/_progress.scss */
+.active-window .x-progress-wrap.black-progress-active .x-progress-text {
+  line-height: 16px;
+}
